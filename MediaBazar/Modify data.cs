@@ -42,8 +42,8 @@ namespace MediaBazar
         // To add a new employee in the system
         private void btnAddNewEmployee_Click(object sender, EventArgs e)
         {
-            /*try
-            {*/
+            try
+            {
                 //mediaBazaar.AddPerson("Aqib", "Butt", dtpBirthDateEmp.Value, "Jannismunnestraat", 28, "5731HJ", "Geldrop", 8, cbxRole.SelectedItem.ToString());
                 string firstName = tbFirstName.Text;
                 string lastName = tbLastName.Text;
@@ -59,7 +59,7 @@ namespace MediaBazar
                     {
                         mediaBazaar.AddPerson(firstName, lastName, dateOfBirth, streetName, houseNr, zipcode, city, hourlyWage, cbxRole.SelectedItem.ToString());
                         this.Close();
-                        form.AddEmployeesToList();
+                        form.RefreshData();
                         
                     }
                     else
@@ -74,18 +74,18 @@ namespace MediaBazar
                       
                         mediaBazaar.UpdateData(this.id, firstName, lastName, dateOfBirth, streetName, houseNr, zipcode, city, hourlyWage, cbxRole.SelectedItem.ToString());
                         this.Close();
-                        form.AddEmployeesToList();
+                        form.RefreshData();
                     }
                     else
                     {
                         MessageBox.Show("Information is not updated");
                     }
                 }
-            /*}
+            }
             catch (Exception)
             {
                 MessageBox.Show("Have you added everything?");
-            }*/
+            }
         }
 
         // getting a person's data by specific ID

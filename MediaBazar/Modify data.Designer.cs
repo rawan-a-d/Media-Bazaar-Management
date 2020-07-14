@@ -51,76 +51,65 @@
             // 
             // tbLastName
             // 
-            this.tbLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbLastName.Location = new System.Drawing.Point(162, 80);
+            this.tbLastName.Location = new System.Drawing.Point(133, 69);
             this.tbLastName.Name = "tbLastName";
-            this.tbLastName.Size = new System.Drawing.Size(267, 24);
+            this.tbLastName.Size = new System.Drawing.Size(281, 20);
             this.tbLastName.TabIndex = 84;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
-            this.label7.Location = new System.Drawing.Point(29, 83);
+            this.label7.Location = new System.Drawing.Point(14, 72);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 20);
+            this.label7.Size = new System.Drawing.Size(58, 13);
             this.label7.TabIndex = 83;
             this.label7.Text = "Last Name";
             // 
             // tbFirstName
             // 
-            this.tbFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbFirstName.Location = new System.Drawing.Point(162, 33);
+            this.tbFirstName.Location = new System.Drawing.Point(133, 22);
             this.tbFirstName.Name = "tbFirstName";
-            this.tbFirstName.Size = new System.Drawing.Size(267, 24);
+            this.tbFirstName.Size = new System.Drawing.Size(281, 20);
             this.tbFirstName.TabIndex = 82;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
-            this.label1.Location = new System.Drawing.Point(29, 33);
+            this.label1.Location = new System.Drawing.Point(14, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 20);
+            this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 81;
             this.label1.Text = "First Name";
             // 
             // cbxRole
             // 
-            this.cbxRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxRole.FormattingEnabled = true;
             this.cbxRole.Items.AddRange(new object[] {
             "Administrator",
             "Manager",
             "DepotWorker",
             "Employee"});
-            this.cbxRole.Location = new System.Drawing.Point(162, 396);
+            this.cbxRole.Location = new System.Drawing.Point(133, 385);
             this.cbxRole.Name = "cbxRole";
-            this.cbxRole.Size = new System.Drawing.Size(267, 26);
+            this.cbxRole.Size = new System.Drawing.Size(281, 21);
             this.cbxRole.TabIndex = 80;
             // 
             // tbxHourlyWage
             // 
-            this.tbxHourlyWage.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbxHourlyWage.Location = new System.Drawing.Point(162, 344);
+            this.tbxHourlyWage.Location = new System.Drawing.Point(133, 333);
             this.tbxHourlyWage.Name = "tbxHourlyWage";
-            this.tbxHourlyWage.Size = new System.Drawing.Size(267, 24);
+            this.tbxHourlyWage.Size = new System.Drawing.Size(281, 20);
             this.tbxHourlyWage.TabIndex = 79;
             // 
             // lblHourlywage
             // 
             this.lblHourlywage.AutoSize = true;
             this.lblHourlywage.BackColor = System.Drawing.Color.Transparent;
-            this.lblHourlywage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHourlywage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
-            this.lblHourlywage.Location = new System.Drawing.Point(27, 350);
+            this.lblHourlywage.Location = new System.Drawing.Point(12, 339);
             this.lblHourlywage.Name = "lblHourlywage";
-            this.lblHourlywage.Size = new System.Drawing.Size(96, 20);
+            this.lblHourlywage.Size = new System.Drawing.Size(66, 13);
             this.lblHourlywage.TabIndex = 78;
             this.lblHourlywage.Text = "Hourly wage";
             // 
@@ -128,101 +117,86 @@
             // 
             this.lblRole.AutoSize = true;
             this.lblRole.BackColor = System.Drawing.Color.Transparent;
-            this.lblRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRole.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
-            this.lblRole.Location = new System.Drawing.Point(29, 399);
+            this.lblRole.Location = new System.Drawing.Point(14, 388);
             this.lblRole.Name = "lblRole";
-            this.lblRole.Size = new System.Drawing.Size(42, 20);
+            this.lblRole.Size = new System.Drawing.Size(29, 13);
             this.lblRole.TabIndex = 77;
             this.lblRole.Text = "Role";
             // 
             // tbCity
             // 
-            this.tbCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbCity.Location = new System.Drawing.Point(162, 297);
+            this.tbCity.Location = new System.Drawing.Point(133, 286);
             this.tbCity.Name = "tbCity";
-            this.tbCity.Size = new System.Drawing.Size(267, 24);
+            this.tbCity.Size = new System.Drawing.Size(281, 20);
             this.tbCity.TabIndex = 76;
             // 
             // lblCity
             // 
             this.lblCity.AutoSize = true;
             this.lblCity.BackColor = System.Drawing.Color.Transparent;
-            this.lblCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
-            this.lblCity.Location = new System.Drawing.Point(29, 303);
+            this.lblCity.Location = new System.Drawing.Point(14, 292);
             this.lblCity.Name = "lblCity";
-            this.lblCity.Size = new System.Drawing.Size(35, 20);
+            this.lblCity.Size = new System.Drawing.Size(24, 13);
             this.lblCity.TabIndex = 75;
             this.lblCity.Text = "City";
             // 
             // tbZipcode
             // 
-            this.tbZipcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbZipcode.Location = new System.Drawing.Point(162, 254);
+            this.tbZipcode.Location = new System.Drawing.Point(133, 243);
             this.tbZipcode.Name = "tbZipcode";
-            this.tbZipcode.Size = new System.Drawing.Size(267, 24);
+            this.tbZipcode.Size = new System.Drawing.Size(281, 20);
             this.tbZipcode.TabIndex = 74;
             // 
             // lblZipcode
             // 
             this.lblZipcode.AutoSize = true;
             this.lblZipcode.BackColor = System.Drawing.Color.Transparent;
-            this.lblZipcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblZipcode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
-            this.lblZipcode.Location = new System.Drawing.Point(29, 260);
+            this.lblZipcode.Location = new System.Drawing.Point(14, 249);
             this.lblZipcode.Name = "lblZipcode";
-            this.lblZipcode.Size = new System.Drawing.Size(66, 20);
+            this.lblZipcode.Size = new System.Drawing.Size(46, 13);
             this.lblZipcode.TabIndex = 73;
             this.lblZipcode.Text = "Zipcode";
             // 
             // tbxHouseNr
             // 
-            this.tbxHouseNr.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbxHouseNr.Location = new System.Drawing.Point(162, 211);
+            this.tbxHouseNr.Location = new System.Drawing.Point(133, 200);
             this.tbxHouseNr.Name = "tbxHouseNr";
-            this.tbxHouseNr.Size = new System.Drawing.Size(267, 24);
+            this.tbxHouseNr.Size = new System.Drawing.Size(281, 20);
             this.tbxHouseNr.TabIndex = 72;
             // 
             // lblHouseNr
             // 
             this.lblHouseNr.AutoSize = true;
             this.lblHouseNr.BackColor = System.Drawing.Color.Transparent;
-            this.lblHouseNr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHouseNr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
-            this.lblHouseNr.Location = new System.Drawing.Point(29, 217);
+            this.lblHouseNr.Location = new System.Drawing.Point(14, 206);
             this.lblHouseNr.Name = "lblHouseNr";
-            this.lblHouseNr.Size = new System.Drawing.Size(114, 20);
+            this.lblHouseNr.Size = new System.Drawing.Size(76, 13);
             this.lblHouseNr.TabIndex = 71;
             this.lblHouseNr.Text = "House number";
             // 
             // tbxStreetName
             // 
-            this.tbxStreetName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbxStreetName.Location = new System.Drawing.Point(162, 169);
+            this.tbxStreetName.Location = new System.Drawing.Point(133, 158);
             this.tbxStreetName.Name = "tbxStreetName";
-            this.tbxStreetName.Size = new System.Drawing.Size(267, 24);
+            this.tbxStreetName.Size = new System.Drawing.Size(281, 20);
             this.tbxStreetName.TabIndex = 70;
             // 
             // lblStreetName
             // 
             this.lblStreetName.AutoSize = true;
             this.lblStreetName.BackColor = System.Drawing.Color.Transparent;
-            this.lblStreetName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStreetName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
-            this.lblStreetName.Location = new System.Drawing.Point(29, 175);
+            this.lblStreetName.Location = new System.Drawing.Point(14, 164);
             this.lblStreetName.Name = "lblStreetName";
-            this.lblStreetName.Size = new System.Drawing.Size(97, 20);
+            this.lblStreetName.Size = new System.Drawing.Size(64, 13);
             this.lblStreetName.TabIndex = 69;
             this.lblStreetName.Text = "Street name";
             // 
             // dtpBirthDateEmp
             // 
             this.dtpBirthDateEmp.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpBirthDateEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpBirthDateEmp.Location = new System.Drawing.Point(162, 126);
+            this.dtpBirthDateEmp.Location = new System.Drawing.Point(133, 115);
             this.dtpBirthDateEmp.Name = "dtpBirthDateEmp";
-            this.dtpBirthDateEmp.Size = new System.Drawing.Size(267, 24);
+            this.dtpBirthDateEmp.Size = new System.Drawing.Size(281, 20);
             this.dtpBirthDateEmp.TabIndex = 68;
             this.dtpBirthDateEmp.Value = new System.DateTime(2020, 3, 9, 0, 0, 0, 0);
             // 
@@ -230,11 +204,11 @@
             // 
             this.btnAddNewEmployee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
             this.btnAddNewEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddNewEmployee.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddNewEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddNewEmployee.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnAddNewEmployee.Location = new System.Drawing.Point(162, 446);
+            this.btnAddNewEmployee.Location = new System.Drawing.Point(133, 435);
             this.btnAddNewEmployee.Name = "btnAddNewEmployee";
-            this.btnAddNewEmployee.Size = new System.Drawing.Size(267, 40);
+            this.btnAddNewEmployee.Size = new System.Drawing.Size(281, 32);
             this.btnAddNewEmployee.TabIndex = 67;
             this.btnAddNewEmployee.Text = "Add";
             this.btnAddNewEmployee.UseVisualStyleBackColor = false;
@@ -244,11 +218,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(60)))), ((int)(((byte)(77)))));
-            this.label3.Location = new System.Drawing.Point(27, 132);
+            this.label3.Location = new System.Drawing.Point(12, 121);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 20);
+            this.label3.Size = new System.Drawing.Size(66, 13);
             this.label3.TabIndex = 66;
             this.label3.Text = "Date of Birth";
             // 
@@ -256,7 +228,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(456, 514);
+            this.ClientSize = new System.Drawing.Size(443, 487);
             this.Controls.Add(this.tbLastName);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.tbFirstName);
