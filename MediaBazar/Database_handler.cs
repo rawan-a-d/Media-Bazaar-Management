@@ -9,7 +9,6 @@ namespace MediaBazar
 {
     class Database_handler
     {
-        string connectionString = "Server=studmysql01.fhict.local;Uid=dbi435688;Database=dbi435688;Pwd=webhosting54;SslMode=none";
         MySqlConnection conn;
         Connection connect = new Connection();
         List<Schedule> schedules = new List<Schedule>();
