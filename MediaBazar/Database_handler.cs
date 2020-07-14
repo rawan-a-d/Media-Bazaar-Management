@@ -11,6 +11,7 @@ namespace MediaBazar
     {
         string connectionString = "Server=studmysql01.fhict.local;Uid=dbi435688;Database=dbi435688;Pwd=webhosting54;SslMode=none";
         MySqlConnection conn;
+        Connection connect = new Connection();
         List<Schedule> schedules = new List<Schedule>();
         Person person = new Person();
         List<Person> people = new List<Person>();
@@ -24,7 +25,7 @@ namespace MediaBazar
 
         public Database_handler()
         {
-            conn = new MySqlConnection(connectionString);
+            conn = new MySqlConnection(connect.ConnectionString);
         }
 
         public List<Schedule> ReadSchedule()
