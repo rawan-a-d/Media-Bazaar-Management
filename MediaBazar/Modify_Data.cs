@@ -21,7 +21,7 @@ namespace MediaBazar
         public Modify_data(int givenId, AdministratorForm f, MediaBazaar mediaBazaar)
         {
             InitializeComponent();
-           
+
             form = f;
             id = givenId;
             this.mediaBazaar = mediaBazaar;
@@ -60,7 +60,7 @@ namespace MediaBazar
                         mediaBazaar.AddPerson(firstName, lastName, dateOfBirth, streetName, houseNr, zipcode, city, hourlyWage, cbxRole.SelectedItem.ToString());
                         this.Close();
                         form.RefreshData();
-                        
+
                     }
                     else
                     {
@@ -71,7 +71,7 @@ namespace MediaBazar
                 {
                     if (MessageBox.Show("Are you sure", "Update Data", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
-                      
+
                         mediaBazaar.UpdateData(this.id, firstName, lastName, dateOfBirth, streetName, houseNr, zipcode, city, hourlyWage, cbxRole.SelectedItem.ToString());
                         this.Close();
                         form.RefreshData();

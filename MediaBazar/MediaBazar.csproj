@@ -86,6 +86,7 @@
       <DependentUpon>AdministratorForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ComboboxItem.cs" />
+    <Compile Include="Connection.cs" />
     <Compile Include="Database_handler.cs" />
     <Compile Include="Departments.cs" />
     <Compile Include="forgetPasswordForm.cs">
@@ -114,11 +115,11 @@
       <DependentUpon>ManagerForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MediaBazaar.cs" />
-    <Compile Include="Modify Data.cs">
+    <Compile Include="Modify_Data.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modify Data.Designer.cs">
-      <DependentUpon>Modify Data.cs</DependentUpon>
+    <Compile Include="Modify_Data.Designer.cs">
+      <DependentUpon>Modify_Data.cs</DependentUpon>
     </Compile>
     <Compile Include="ModifyDepartment.cs">
       <SubType>Form</SubType>
@@ -163,8 +164,8 @@
     <EmbeddedResource Include="ManagerForm.resx">
       <DependentUpon>ManagerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modify Data.resx">
-      <DependentUpon>Modify Data.cs</DependentUpon>
+    <EmbeddedResource Include="Modify_Data.resx">
+      <DependentUpon>Modify_Data.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModifyDepartment.resx">
       <DependentUpon>ModifyDepartment.cs</DependentUpon>

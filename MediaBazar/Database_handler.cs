@@ -9,8 +9,8 @@ namespace MediaBazar
 {
     class Database_handler
     {
-        string connectionString = "Server=studmysql01.fhict.local;Uid=dbi435688;Database=dbi435688;Pwd=webhosting54;SslMode=none";
         MySqlConnection conn;
+        Connection connect = new Connection();
         List<Schedule> schedules = new List<Schedule>();
         Person person = new Person();
         List<Person> people = new List<Person>();
@@ -24,7 +24,7 @@ namespace MediaBazar
 
         public Database_handler()
         {
-            conn = new MySqlConnection(connectionString);
+            conn = new MySqlConnection(connect.ConnectionString);
         }
 
         public List<Schedule> ReadSchedule()
@@ -601,6 +601,7 @@ namespace MediaBazar
         public List<Person> ReturnPeopleFromDB()
         {
            people = new List<Person>();
+            int dpId = 0;
             try
             {
                 string sql = "SELECT id, firstName, lastName, department_id, dateOfBirth, streetName, houseNr, city, zipcode, hourlyWage, role FROM person"; // a query of what we want
@@ -623,8 +624,17 @@ namespace MediaBazar
                     {
                         r = Roles.DepotWorker;
                     }
-                    Person g = new Person(Convert.ToInt32(dr[0]), dr[1].ToString(), dr[2].ToString(), Convert.ToInt32(dr[3]), Convert.ToDateTime(dr[4]), dr[5].ToString(), Convert.ToInt32(dr[6]), dr[7].ToString(), dr[8].ToString(), Convert.ToDouble(dr[9]), r); // has to specify the order like this
-                    people.Add(g);
+
+                    if (dr[3] == DBNull.Value)
+                    {
+                        Person g = new Person(Convert.ToInt32(dr[0]), dr[1].ToString(), dr[2].ToString(), dpId, Convert.ToDateTime(dr[4]), dr[5].ToString(), Convert.ToInt32(dr[6]), dr[7].ToString(), dr[8].ToString(), Convert.ToDouble(dr[9]), r); // has to specify the order like this
+                        people.Add(g);
+                    }
+                    else
+                    {
+                        Person g = new Person(Convert.ToInt32(dr[0]), dr[1].ToString(), dr[2].ToString(), Convert.ToInt32(dr[3]), Convert.ToDateTime(dr[4]), dr[5].ToString(), Convert.ToInt32(dr[6]), dr[7].ToString(), dr[8].ToString(), Convert.ToDouble(dr[9]), r); // has to specify the order like this
+                        people.Add(g);
+                    }
                 }
             }
             finally
